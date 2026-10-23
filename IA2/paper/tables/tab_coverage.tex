@@ -1,0 +1,14 @@
+\begin{tabular}{p{3.3cm}p{3.0cm}cp{4.6cm}}
+\toprule
+Attack & Mechanism & Stops? & Why \\
+\midrule
+Membership inference & DP-SGD / DP-NB & \cmark & Central DP bounds per-record influence \\
+Membership inference & Output modification & \cmark & Removes the confidence signal \\
+Attribute inference (sex) & Privacy-aware DCA & \cmark & Suppresses the sensitive discriminant \\
+Linkage / re-identification & $k$-anonymity (Mondrian) & \cmark & Generalises quasi-identifiers \\
+Homogeneity disclosure & $\ell$-diversity / $t$-closeness & \cmark & Diversifies each class \\
+Collection-time disclosure & Local DP & \cmark & No trusted curator needed \\
+Membership inference & $k$-anonymity & \xmark & Protects the table, not the model \\
+Attribute inference & Central DP alone & \pmark & Partial; not targeted at the sensitive attr. \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,9 @@
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+matplotlib>=3.8
+torch>=2.2
+opacus>=1.5
+diffprivlib>=0.6
+folktables>=0.0.12
+pytest>=8.0

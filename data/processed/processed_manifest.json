@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "n_train": 31656,
+  "n_test": 13566,
+  "n_features_encoded": 103,
+  "positive_rate_train": 0.24785190801111953,
+  "positive_rate_test": 0.24782544596786082,
+  "files": {
+    "adult_train_clean.csv": "12a248235ff4acae817bd89a1997fb110805b1388c4922abdbfb18b58ffb968a",
+    "adult_test_clean.csv": "917495f960776f3fb27d24b3a729f250333007384f63cef09b4f76e0ac430871"
+  }
+}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+# large / regenerable raw data (downloaded via scripts; see data/PROVENANCE.md)
+data/raw/

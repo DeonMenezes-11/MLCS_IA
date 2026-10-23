@@ -1,0 +1,6 @@
+{
+  "n_train": 31656,
+  "n_test": 13566,
+  "n_features": 103,
+  "positive_rate": 0.24782544596786082
+}
