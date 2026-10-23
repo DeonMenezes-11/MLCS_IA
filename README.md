@@ -29,7 +29,7 @@ python IA1/make_tables_ia1.py && python IA2/make_tables_ia2.py
 Reports compile with `pdflatex` + `bibtex` (BasicTeX; no exotic packages).
 
 ## Evidence link
-Replace this line with your GitHub repository URL once you push the project.
+Repository: https://github.com/DeonMenezes-11/MLCS_IA
 
 ## Modules covered
 M1 threats/attacks · M2 differential privacy · M3 local DP · M4 privacy-preserving
